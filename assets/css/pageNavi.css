@@ -1,0 +1,31 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+	clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.168627451);
+    border:none;
+	padding: 3px 5px;
+	margin: 2px;
+    color: white;
+}
+.pages{
+    background:#f92672!important;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #000;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+.previouspostslink{
+    background-color: #27dea7!important;
+}

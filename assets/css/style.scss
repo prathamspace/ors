@@ -1,0 +1,1331 @@
+// zoro/_code.scss
+
+@font-face {
+  font-family: SourceSans3-Black;
+  src: url(../fonts/sourcesans3/SourceSans3-Black.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: SourceSans3-BlackItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-BlackItalic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-Bold;
+  src: url(../fonts/sourcesans3/SourceSans3-Bold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: SourceSans3-BoldItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-BoldItalic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-ExtraBold;
+  src: url(../fonts/sourcesans3/SourceSans3-ExtraBold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: SourceSans3-ExtraLight;
+  src: url(../fonts/sourcesans3/SourceSans3-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: SourceSans3-ExtraLightItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-Italic;
+  src: url(../fonts/sourcesans3/SourceSans3-Italic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-Light;
+  src: url(../fonts/sourcesans3/SourceSans3-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: SourceSans3-LightItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-LightItalic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-Medium;
+  src: url(../fonts/sourcesans3/SourceSans3-Medium.ttf);
+}
+@font-face {
+  font-family: SourceSans3-MediumItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-MediumItalic.ttf);
+}
+@font-face {
+  font-family: SourceSans3-Regular;
+  src: url(../fonts/sourcesans3/SourceSans3-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: SourceSans3-SemiBold;
+  src: url(../fonts/sourcesans3/SourceSans3-SemiBold.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: SourceSans3-SemiBoldItalic;
+  src: url(../fonts/sourcesans3/SourceSans3-SemiBoldItalic.ttf);
+}
+
+// Nunito Font Face
+
+@font-face {
+  font-family: NunitoSans_10pt-Black;
+  src: url(../fonts/nuinto/NunitoSans_10pt-Black.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-BlackItalic;
+  src: url(../fonts/nuinto/NunitoSans_10pt-BlackItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-Bold;
+  src: url(../fonts/nuinto/NunitoSans_10pt-Bold.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-BoldItalic;
+  src: url(../fonts/nuinto/NunitoSans_10pt-BoldItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-ExtraBold;
+  src: url(../fonts/nuinto/NunitoSans_10pt-ExtraBold.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-ExtraBoldItalic;
+  src: url(../fonts/nuinto/NunitoSans_10pt-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-ExtraLight;
+  src: url(../fonts/nuinto/NunitoSans_10pt-ExtraLight.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-ExtraLightItalic;
+  src: url(../fonts/nuinto/NunitoSans_10pt-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-Italic;
+  src: url(../fonts/nuinto/NunitoSans_10pt-Italic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-Light;
+  src: url(../fonts/nuinto/NunitoSans_10pt-Light.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-LightItalic;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-LightItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-Medium;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-Medium.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-MediumItalic;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-MediumItalic.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-Regular;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-Regular.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-SemiBold;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-SemiBold.ttf);
+}
+@font-face {
+  font-family: NunitoSans_10pt-SemiBoldItalic;
+  src: url(../fonts/nuinto/NunitoSans_7pt_SemiExpanded-SemiBoldItalic.ttf);
+}
+
+// Nato Sans
+
+@font-face {
+  font-family: NotoSans-Regular;
+  src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: NotoSans-Medium;
+  src: url(../fonts/Noto_Sans/NotoSans-Medium.ttf);
+}
+
+// zoro/_colors.scss
+
+$background-color: #1f2937;
+$text-main: #9ca3af;
+$active: #f7d163;
+$text-heading: #f3f4f6;
+$headingDark: #111827;
+
+$green: #27dea7;
+$yellow: #f7d163;
+$blue: #62d3e9;
+$red: #f92672;
+// Global Styles
+body {
+  overflow-x: hidden;
+  font-family: NunitoSans_10pt-Light;
+}
+.red {
+  color: $red !important;
+}
+.blue {
+  color: $blue !important;
+}
+.green {
+  color: $green !important;
+}
+.yellow {
+  color: $yellow !important;
+}
+.red-background {
+  background-color: $red !important;
+}
+.blue-background {
+  background-color: $blue !important;
+}
+.green-background {
+  background-color: $green !important;
+}
+.yellow-background {
+  background-color: $yellow !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f3f4f6;
+  font-family: SourceSans3-Regular;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+// Animations
+
+//Colors
+$background: #fefefe;
+$text: #4b507a;
+$black: black;
+$cyan: #60daaa;
+$yellow: #fbca67;
+$orange: #ff8a30;
+$red: #f92672;
+$white: white;
+$purple: #6477b9;
+$blue: #0eb7da;
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  button {
+    background: 0 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 9px 21px;
+    box-shadow: inset 0 0 0 2px #fbca67;
+    color: black;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+    background: #fbca67;
+
+    &::before,
+    &::after {
+      box-sizing: inherit;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .draw {
+    transition: color 0.25s;
+
+    &::before,
+    &::after {
+      // Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts
+      border: 2px solid transparent;
+      width: 0;
+      height: 0;
+    }
+
+    // This covers the top & right borders (expands right, then down)
+    &::before {
+      top: 0;
+      left: 0;
+    }
+
+    // And this the bottom & left borders (expands left, then up)
+    &::after {
+      bottom: 0;
+      right: 0;
+    }
+
+    &:hover {
+      color: $cyan;
+    }
+
+    // Hover styles
+    &:hover::before,
+    &:hover::after {
+      width: 100%;
+      height: 100%;
+    }
+
+    &:hover::before {
+      border-top-color: $cyan; // Make borders visible
+      border-right-color: $cyan;
+      transition: width 0.25s ease-out,
+        // Width expands first
+        height 0.25s ease-out 0.25s; // And then height
+    }
+
+    &:hover::after {
+      border-bottom-color: $cyan; // Make borders visible
+      border-left-color: $cyan;
+      transition: border-color 0s ease-out 0.5s,
+        // Wait for ::before to finish before showing border
+        width 0.25s ease-out 0.5s,
+        // And then exanding width
+        height 0.25s ease-out 0.75s; // And finally height
+    }
+  }
+
+  // Inherits from .draw
+  .meet {
+    &:hover {
+      color: $black;
+    }
+
+    // Start ::after in same position as ::before
+    &::after {
+      top: 0;
+      left: 0;
+    }
+
+    // Change colors
+    &:hover::before {
+      border-top-color: $white;
+      border-right-color: $white;
+    }
+
+    &:hover::after {
+      border-bottom-color: $white;
+      border-left-color: $white;
+      transition: // Animate height first, then width
+        height 0.25s ease-out, width 0.25s ease-out 0.25s;
+    }
+  }
+}
+
+// Dark Mode Classes
+.bodyDark {
+  background: #181a1b;
+}
+.headingDark {
+  color: $headingDark;
+  a {
+    color: $headingDark;
+  }
+}
+.white {
+  background: white;
+}
+.text {
+  color: $text-main;
+}
+
+// active
+.active {
+  // border-bottom: 3px solid $active;
+
+  a {
+    color: $active !important;
+  }
+}
+// Header
+
+header {
+  padding: 26px 0px;
+  nav {
+    border: 4px dashed;
+    border-color: #27dea7 #f7d163 #62d3e9 #f92672;
+    border-radius: 61px;
+    padding: 8px 26px !important;
+    background: #222221;
+    .navbar-brand {
+      font-family: NotoSans-Medium;
+      color: #f7d163 !important;
+      font-size: 18px;
+      padding: 0px;
+      line-height: 0px !important;
+
+      margin: 0px;
+      margin-top: -3px !important;
+    }
+  }
+  .logo {
+    width: 141px;
+  }
+  #menu-primary-menu {
+    margin-left: 42px;
+    li {
+      margin: 0px 17px;
+      &:hover {
+        // border-bottom: 3px solid $active;
+        transition: opacity 0.3s, transform 0.3s;
+        transition: 500ms;
+
+        a {
+          color: $active !important;
+          transition: 500ms;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        // padding: 22px 7px;
+        // padding-bottom: 28px;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: SourceSans3-Regular;
+      }
+    }
+  }
+
+  .searchBox {
+    position: relative;
+    .searchIcon {
+      position: absolute;
+      top: 8px;
+      left: 9px;
+      color: #f7d163;
+    }
+    #searchsubmit {
+      display: none;
+    }
+    input {
+      background: none;
+      border-color: #f7d163;
+      width: 300px;
+      color: #f7d163;
+      border: 1.4px solid;
+      padding: 6px 0px;
+      border-radius: 23px;
+      padding-left: 34px;
+      &::placeholder {
+        color: #6b7280;
+      }
+      &:focus {
+        color: #f92672;
+        border-color: #f92672;
+        box-shadow: none;
+        background: none;
+        .searchIcon {
+          color: #f92672;
+        }
+      }
+    }
+  }
+
+  .navbar-toggler {
+    background: transparent;
+    border: none !important;
+  }
+  .navbar-toggler-icon {
+    background-image: url(../img/menu.png);
+  }
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.stickyHeader {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.ZoroBLOG {
+  max-width: 863px;
+  padding: 52px 0;
+}
+
+// Homepage
+
+.homepage {
+  padding-top: 140px;
+  img {
+    width: 221px;
+  }
+  .catalog {
+    margin-top: 35px;
+    h2 {
+      margin-bottom: 26px;
+    }
+    .languages {
+      color: $text-main;
+      background: #1e1f20;
+      margin-bottom: 0px;
+      padding: 19px 0;
+      border-radius: 6px;
+      margin-bottom: 18px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .banner {
+    h1 {
+      line-height: 1.4;
+    }
+    h2 {
+      line-height: 1.4;
+    }
+    span {
+      text-decoration: underline;
+      text-decoration-color: #f92672;
+    }
+    p {
+      color: $text-heading;
+      line-height: 1.5;
+      font-size: 18px;
+      width: 57%;
+      margin: 0 auto;
+    }
+    #bannerBtn {
+      display: flex;
+      margin-top: 25px;
+      // width: 45%;
+      a {
+        margin: 0 auto;
+        background-color: #f7d163;
+        border: none;
+        font-weight: 700;
+        color: black;
+      }
+    }
+  }
+
+  .contactpage {
+    padding: 140px 0;
+  }
+}
+
+// Skills
+
+.skills {
+  margin: 140px 0px;
+  background: rgb(76 87 77 / 17%);
+  border-radius: 78px;
+  padding: 12px 20px;
+  h2 {
+    line-height: 1.5;
+    color: $red;
+    // padding-bottom: 22px;
+    span {
+      text-decoration: underline;
+      text-decoration-color: $green;
+    }
+  }
+  .skillsSlider {
+    padding: 20px 0;
+    img {
+      width: 70px;
+      margin: 0 29px;
+    }
+  }
+}
+
+// projects
+
+.projects {
+  h2 {
+    line-height: 1.5;
+    color: $red;
+    padding-bottom: 22px;
+    span {
+      text-decoration: underline;
+      text-decoration-color: #27dea7;
+    }
+  }
+
+  .projectBox {
+    padding: 20px 0;
+    p {
+      color: $text-heading;
+    }
+    .projectBoxContent {
+      background: #33383b;
+      padding: 17px;
+      border-radius: 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      span {
+        color: #181a1b;
+      }
+      #buttons {
+        justify-content: unset;
+        button {
+          margin: 0px;
+          margin-top: 13px;
+          font-weight: 500;
+          padding: 4px 12px;
+        }
+      }
+    }
+    .projectBoxImg {
+      img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+  }
+  #contactMe {
+    display: flex;
+    margin-top: 12px;
+    .view {
+      margin: 0 auto;
+      background-color: $yellow;
+      color: black;
+      border: none;
+    }
+  }
+}
+
+// Switch CSS
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: $active;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px $active;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+// Breadcrumb
+
+.breadcrumb-item {
+  .breadcrumb-active {
+    border-bottom: none !important;
+  }
+  a {
+    color: white;
+  }
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: $green;
+}
+
+.zoro-breadcrumb {
+  padding: 25px 0;
+  h1 {
+    font-size: 37px;
+    padding-top: 7px;
+    margin-bottom: 0px;
+  }
+  span {
+    margin-left: 1px;
+  }
+}
+
+// Blog Posts
+.size-post-thumbnail.wp-post-image {
+  height: 326px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+.zoroBlogBox {
+  padding: 40px 0px;
+  .zoroBlogPosts {
+    .singlePost {
+      margin-bottom: 28px;
+      .blogHeading {
+        font-size: 24px;
+        a {
+          text-decoration: none;
+          color: $green;
+        }
+      }
+      .blogDate {
+        display: block;
+        color: $yellow;
+        font-size: 14px;
+      }
+
+      .wp-block-image {
+        border: 1px solid $text-heading;
+        border-radius: 5px;
+        .wp-element-caption {
+          text-indent: 22px;
+        }
+      }
+      .readMore {
+        font-weight: 700;
+        a {
+          text-decoration: none;
+          color: $red;
+        }
+      }
+      .postcategory {
+        a {
+          background: $blue;
+          color: $background-color !important;
+          padding: 3px 7px;
+          font-size: 15px;
+          color: white;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: 19px;
+          display: inline-block;
+          text-transform: capitalize;
+          font-weight: 600;
+        }
+      }
+      .badge {
+        a {
+          text-decoration: none;
+          color: $text-heading;
+        }
+      }
+      .authorCard {
+        padding: 26px 0px;
+        border-bottom: 0.1px solid #ffffff1f;
+        .avatar {
+          width: 69px;
+          height: 69px;
+          border-radius: 69px !important;
+        }
+        .authorMeta {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 15px;
+          a {
+            font-weight: 600;
+            text-transform: capitalize;
+            color: white;
+          }
+        }
+      }
+      li {
+        list-style-type: circle;
+      }
+    }
+  }
+}
+
+// Widgets
+
+.zoroWidget {
+  padding-left: 60px;
+
+  // sidebar
+
+  .codesidebar {
+    background: #1e1f20;
+    padding: 6px 19px;
+    margin-top: 18px;
+    border-radius: 16px;
+    .widget-title {
+      margin-top: 12px !important;
+    }
+  }
+
+  #mainSidebar {
+    ul {
+      padding-left: 0;
+      li {
+        margin: 3px 0;
+        a {
+          color: $text-main;
+        }
+      }
+    }
+
+    .widget-title {
+      display: flex;
+      align-items: center;
+      // margin-top: 37px;
+      font-size: 18px;
+      i {
+        margin-right: 7px;
+      }
+      img {
+        width: 31px;
+        margin-right: 5px;
+      }
+    }
+    .wp-block-categories-list {
+      padding-left: 0px;
+      color: $text-main;
+      li {
+        display: flex;
+        justify-content: space-between;
+        text-transform: capitalize;
+        margin: 4px 0;
+        a {
+          color: inherit;
+        }
+      }
+    }
+    .wp-block-latest-posts__list {
+      color: $text-main;
+      li {
+        margin: 10px 0;
+        .wp-block-latest-posts__post-title {
+          color: $text-heading;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+// Portfolio
+
+.skillBox {
+  text-align: center;
+  margin: 0px 6px;
+  padding: 42px 0px;
+  a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+.portfolioPage {
+  margin: 79px 0;
+}
+
+// Footer
+
+footer {
+  margin-bottom: 26px;
+  .footerBox {
+    position: sticky;
+    width: 100%;
+    bottom: 0px;
+    align-items: center;
+    padding: 14px 23px;
+    justify-content: space-between;
+    border: 5px dashed;
+    border-color: #27dea7 #f7d163 #62d3e9 #f92672;
+    border-radius: 61px;
+    .copyright {
+      color: $text-main;
+      p {
+        color: #08ff61;
+        margin-bottom: 0px;
+      }
+    }
+    .socialIcons {
+      i {
+        font-size: 21px;
+        color: $text-main;
+        margin: 0px 7px;
+      }
+    }
+  }
+}
+
+.page404 {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 13em;
+  }
+}
+
+// Contact Page
+.contactpage {
+  padding: 50px 0;
+  h1 {
+    line-height: 1.5;
+    color: #f92672;
+    padding-bottom: 22px;
+    span {
+      text-decoration: underline;
+      text-decoration-color: #27dea7;
+    }
+  }
+  h2 {
+    line-height: 1.5;
+    color: #f92672;
+    padding-bottom: 22px;
+    span {
+      text-decoration: underline;
+      text-decoration-color: #27dea7;
+    }
+  }
+  #contactme {
+    width: 75%;
+    color: $text-main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    .submitbutton {
+      .wpcf7-spinner {
+        display: none;
+      }
+    }
+    p {
+      width: 100%;
+      label {
+        width: 100%;
+        color: $green;
+        input {
+          width: 100%;
+          color: #f7d163;
+          background: rgba(255, 255, 255, 0.168627451);
+          border: none;
+          margin-top: 10px;
+          &:focus {
+            color: $yellow;
+            border-color: $yellow;
+            box-shadow: 0 0 0 0.25rem $yellow;
+          }
+        }
+        textarea {
+          width: 100%;
+          background: rgba(255, 255, 255, 0.168627451);
+          border: none;
+          height: 99px;
+          margin-top: 10px;
+          color: #f7d163;
+          &:focus {
+            color: $yellow;
+            box-shadow: 0 0 0 0.25rem $yellow;
+          }
+        }
+      }
+      .wpcf7-submit {
+        background-color: $blue;
+        border: none;
+      }
+      .wpcf7-not-valid-tip {
+        color: $red;
+      }
+    }
+  }
+}
+
+// Resume
+
+.resume {
+  padding: 43px 0px;
+  .sButtons .col {
+    color: #f3f4f6;
+    margin: 6px;
+    text-align: center;
+    padding: 26px 0px;
+    border-radius: 5px;
+    a {
+      color: white;
+    }
+    &:hover {
+      transform: scale(1.1);
+      transition: 500ms;
+    }
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 26px;
+    padding: 15px 0px;
+  }
+  .space {
+    padding: 15px 0px;
+  }
+
+  .table {
+    border: 1px solid #6b7280;
+    thead {
+      background: #ffffff2b;
+      tr {
+        th {
+          background: unset;
+          color: white;
+          padding: 10px 23px;
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 2px;
+          color: #9ca3af;
+        }
+        td {
+          padding: 10px 23px;
+          background: unset !important;
+        }
+      }
+    }
+  }
+
+  .table > :not(caption) > * > * {
+    background: unset;
+    color: #9ca3af;
+  }
+}
+
+.websitePage {
+  .projects {
+    padding: 50px 0px;
+  }
+}
+
+// Single Post
+.singlePost {
+  padding-bottom: 60px;
+  h2 {
+    color: $green;
+    a {
+      color: $green;
+    }
+  }
+  .zoroWidget {
+    h2 {
+      color: $text-heading;
+    }
+  }
+}
+// Author
+.authorPage {
+  .authorBox {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .authorImage {
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 auto;
+      text-transform: capitalize;
+      a {
+        line-height: 1.9;
+        color: $yellow;
+        font-size: 30px;
+      }
+    }
+    h2 {
+      font-size: 18px;
+      span {
+        text-decoration: underline;
+        text-decoration-color: #f92672;
+      }
+    }
+  }
+}
+
+// Contact form 7
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: $red;
+  color: $yellow;
+}
+
+.wpcf7-response-output {
+  border: 1px solid #ffb900 !important;
+  width: 63%;
+  color: white;
+  text-align: center;
+}
+
+div#wpcf7-f72-o1 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Single Post-type
+.singlePOST {
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .mobileMenu {
+    padding: 17px 26px 7px 26px !important;
+  }
+  .active {
+    border-bottom: none;
+  }
+  header {
+    nav {
+      padding: 6px 26px !important;
+    }
+    #menu-primary-menu {
+      margin-left: 0px !important;
+      li {
+        margin: 5px 0;
+        margin-left: 0;
+        &:hover {
+          border-bottom: none;
+        }
+
+        a {
+          border-bottom: none;
+        }
+      }
+      .active {
+        // background: #60a5fa;
+
+        a {
+          color: white !important;
+        }
+      }
+    }
+    .searchBox {
+      margin-bottom: 15px;
+    }
+  }
+
+  // Homepage mobile
+  .homepage {
+    .banner {
+      h2 {
+        font-size: 18px;
+      }
+      p {
+        width: 87%;
+      }
+    }
+
+    .skills {
+      margin: 60px 0px;
+    }
+  }
+
+  // projects mobile
+
+  .projects {
+    .mobileProject {
+      flex-direction: column-reverse;
+    }
+    .projectBox {
+      .projectBoxImg {
+        display: flex;
+        img {
+          width: 75% !important;
+          margin: 0 auto;
+          border-radius: 0px;
+        }
+      }
+      .projectBoxContent {
+        width: 72%;
+        margin: 0 auto;
+        border-radius: unset;
+      }
+    }
+  }
+
+  .zoroWidget {
+    padding-left: 17px;
+    margin-bottom: 35px;
+    .codesidebar {
+      margin-bottom: 25px;
+    }
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .skillBox:last-child {
+    margin-bottom: 28px;
+  }
+  .mBottom {
+    margin-bottom: 38px;
+  }
+
+  // homepage mobile
+  .homepage {
+    padding: 38px 0;
+    .catalog {
+      .languages {
+        margin: 0 15px;
+        margin-bottom: 12px;
+      }
+    }
+    .contactpage {
+      padding: 0px;
+      padding-top: 60px;
+      #contactme {
+        padding: 0 21px;
+        .wpcf7-submit {
+          background-color: $blue;
+          border: none;
+        }
+      }
+    }
+  }
+
+  // Portfolio Page
+  .portfolioPage {
+    margin: 25px 0px;
+    .portfolioPageLinks {
+      .col-sm-12 {
+        padding: 0px;
+        .skillBox {
+          margin: 6px 0px;
+          padding: 10px 0px;
+        }
+      }
+    }
+    .zoroWidget {
+      margin-top: 37px !important;
+      padding: 0px;
+      margin-bottom: 0px;
+    }
+  }
+
+  // Blog page mobile
+  .zoro-main {
+    padding: 0 40px;
+    h1 {
+      margin-top: 45px;
+    }
+    .size-post-thumbnail.wp-post-image {
+      object-fit: unset;
+      width: 100%;
+      height: 100%;
+    }
+    .zoroWidget {
+      margin-top: 24px;
+    }
+    .zoroBlogBox {
+      padding: 0;
+      margin-top: 28px;
+    }
+    .breadcrumb {
+      font-size: 11px;
+    }
+  }
+
+  .zoro-b-r img {
+    border-radius: 8px;
+    height: 200px !important;
+    object-fit: cover;
+  }
+
+  pre.wp-block-code {
+    background: #3c3b3b;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  // Contact page
+  .contactpage {
+    #contactme {
+      padding: 0 10%;
+      width: unset;
+    }
+  }
+
+  // Resume
+  .resume {
+    .zoroWidget {
+      margin-top: 35px;
+    }
+    .sButtons {
+      flex-direction: column;
+      .col {
+        color: #f3f4f6;
+        margin: 6px auto;
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 5px;
+        width: 90%;
+      }
+    }
+  }
+  // single post mobile
+  .singlePost {
+    padding-bottom: 0px;
+    margin-bottom: 19px;
+  }
+  // Footer Mobile
+  footer {
+    .footerBox {
+      flex-direction: column;
+      flex-direction: column;
+      padding: 22px 0px;
+      margin-bottom: 15px;
+      .copyright {
+        p {
+          width: 64%;
+          margin: 5px auto;
+        }
+      }
+    }
+  }
+}
+
+// 404

@@ -1,0 +1,55 @@
+<section class="homepage container">
+    <div class="banner">
+        <h1 class="text-center">Pratham Kumar</h1>
+        <h2 class="text-center">A <span>professional</span> full stack software engineer.</h2>
+        <p class="text-center">Detailed full stack software tutorials, walk-throughs, and more - battle-tested and directly from the front lines of industrial, startup, and SaaS product full stack software development. Learn techniques, patterns, and code that I've used on my dozen+ products I've built in my 1+ year software career.</p>
+    </div>
+
+    <div class="d-flex">
+        <img class="mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+    </div>
+    
+</section>
+<div class="row catalog">
+        <h2 class="text-center">Learn to Code</h2>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/java">
+                <p class="languages"> Java</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/data_structures">
+                <p class="languages"> Data Structures</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/html">
+                <p class="languages"> HTML</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/css">
+                <p class="languages"> CSS</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/bootstrap">
+                <p class="languages"> Bootstrap</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/java">
+                <p class="languages"> CSS</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/java">
+                <p class="languages"> CSS</p>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-3  text-center">
+            <a href="<?php site_url() ?>/java">
+                <p class="languages"> CSS</p>
+            </a>
+        </div>
+    </div>
